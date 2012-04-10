@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 require 'api_smith'
 
 module Stackexchange
@@ -21,7 +21,7 @@ module Stackexchange
 
   end
 end
-binding.pry
+#binding.pry
 
 # client = Stackexchange::Client.new
 # client.questions(:pagesize => '5', :tagged => 'ruby', :filter => '!gek9vwfUmFjvxuErGDgpW_4OqAvm1j7-*zm')
